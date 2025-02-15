@@ -1,0 +1,11 @@
+title: My Testimony Blog
+description: A collection of inspiring testimonies
+baseurl: ""
+url: "https://<yourusername>.github.io"
+theme: minima
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
