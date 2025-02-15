@@ -1,8 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <title>{{ page.title }}</title>
+
+  <!-- Primary Meta Tags -->
+  <meta charset="UTF-8">
+  <meta name="title" content="{{ page.title }}">
+  <meta name="description" content="{{ page.excerpt | strip_html | truncatewords: 30 }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ page.excerpt | strip_html | truncatewords: 30 }}">
+  <meta property="og:image" content="{{ page.image | absolute_url }}">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="{{ page.url | absolute_url }}">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="{{ page.excerpt | strip_html | truncatewords: 30 }}">
+  <meta name="twitter:image" content="{{ page.image | absolute_url }}">
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
   <div class="page-container">
