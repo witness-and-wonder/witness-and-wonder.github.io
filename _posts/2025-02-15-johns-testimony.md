@@ -1,4 +1,5 @@
 ---
+layout: post
 title: John's Testimony
 date: 2025-02-15
 author: John Doe
