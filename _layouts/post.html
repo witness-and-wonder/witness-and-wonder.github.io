@@ -12,6 +12,7 @@
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="article">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:site_name" content="{{ page.title }}">
   <meta property="og:title" content="{{ page.title }}">
   <meta property="og:description" content="{{ page.excerpt | strip_html | truncatewords: 30 }}">
   <meta property="og:image" content="{{ page.image | absolute_url }}">
@@ -27,6 +28,11 @@
 </head>
 <body>
   <div class="page-container">
+    {% if page.image %}
+      <div class="post-image">
+        <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+      </div>
+    {% endif %}
     <h1>{{ page.title }}</h1>
     <p><em>{{ page.author }} | {{ page.date | date: "%B %d, %Y" }}</em></p>
     {{ content }}

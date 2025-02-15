@@ -3,6 +3,7 @@ title: "A Journey of Faith: My Testimony"
 author: "John Doe"
 date: 2025-02-15
 excerpt: "This is my journey of faith where I share how I found hope and joy in my life."
+image: "/assets/images/lerone-pieters-unsplash.jpg"
 ---
 
 ## 🙏 A Journey of Faith
