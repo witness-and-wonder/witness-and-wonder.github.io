@@ -21,7 +21,10 @@
             property="og:description"
             content="{{ page.excerpt | strip_html | truncatewords: 30 }}"
         />
-        <meta property="og:image" content="{{ page.image | absolute_url }}" />
+        <meta
+            property="og:image"
+            content="{{ page.thumbnail | absolute_url }}"
+        />
 
         <!-- Twitter -->
         <meta name="twitter:card" content="summary_large_image" />
@@ -31,7 +34,10 @@
             name="twitter:description"
             content="{{ page.excerpt | strip_html | truncatewords: 30 }}"
         />
-        <meta name="twitter:image" content="{{ page.image | absolute_url }}" />
+        <meta
+            name="twitter:image"
+            content="{{ page.thumbnail | absolute_url }}"
+        />
 
         <link
             rel="stylesheet"
