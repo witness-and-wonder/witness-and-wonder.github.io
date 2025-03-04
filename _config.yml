@@ -13,4 +13,4 @@ plugins:
 collections:
   testimonies:
     output: true
-    permalink: /testimonies/:path/
+    permalink: /:path/
