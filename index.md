@@ -18,10 +18,10 @@ layout_class: home
           <a href="{{ testimony.url }}">{{ testimony.title }}</a>
         </h2>
         <div class="post-meta">
-          <small>{{ testimony.date | date: "%B %d, %Y" }}</small>
-          {% if testimony.author %}
-          <span class="post-author"> by {{ testimony.author }}</span>
-          {% endif %}
+            {% if testimony.author %}
+            <span class="post-author">{{ testimony.author }} | </span>
+            {% endif %}
+            {{ testimony.date | date: "%B %d %Y" }}
         </div>
         {% if testimony.excerpt %}
         <p>{{ testimony.excerpt }}</p>
