@@ -7,9 +7,6 @@ excerpt: "Exhausted and out of time, I found myself assembling my model at 2 AM,
 image: ""
 ---
 
-# O COME TO THE THRONE OF GRACE, 030425
-
-
 I think some of you already knew I was in the thick of it by the time we had our prayer call together last night. Indeed I was - I had a model to build, take photos of and record a video for by this Monday and a lot of things went wrong.
 
 Long story short, I found myself having to make complicated arrangements to get my model built in a short amount of time throughout the night. At the end, I was only gonna be able to properly assemble my model from 2am onwards (when we were gonna present our work from 9am onwards LOL) after already exhausting myself to cut a lot of pieces by hand and troubleshooting my 3D printed pieces for at least 6 hours on Sunday.
