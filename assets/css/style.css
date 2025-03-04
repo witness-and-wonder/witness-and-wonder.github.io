@@ -10,6 +10,7 @@
 /* Global Styles */
 body {
     font-family: "Merriweather", serif;
+    font-size: 14px; /* scaled down base font size */
     line-height: 1.6;
     color: #333;
     background-color: #fff;
@@ -23,14 +24,14 @@ body {
     padding: 20px;
 }
 
-/* Headings - nonitalic, normal weight for a subtle look */
+/* Headings - nonitalic, subtle styling */
 h1,
 h2,
 h3 {
     font-family: "Merriweather", serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1.3em; /* scaled down from 1.5em */
     margin-bottom: 5px;
     color: #333;
 }
@@ -49,7 +50,7 @@ p {
 
 /* Home Page Styles */
 .home .page-title {
-    font-size: 1.5em;
+    font-size: 1.3em; /* scaled down */
     margin-bottom: 10px;
     font-weight: 400;
 }
@@ -81,7 +82,7 @@ p {
 }
 
 .post-title {
-    font-size: 1.5em;
+    font-size: 1.3em; /* scaled down */
     margin-bottom: 5px;
     font-weight: 400;
 }
@@ -107,7 +108,7 @@ p {
 
 /* Post Page Styles */
 .post-page .post-title {
-    font-size: 1.5em;
+    font-size: 1.3em; /* scaled down */
     margin-bottom: 5px;
     font-weight: 400;
 }
