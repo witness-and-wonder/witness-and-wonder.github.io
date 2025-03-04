@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Witness & Wonder
+title: WITNESS & WONDER
 layout_class: home
 ---
 
