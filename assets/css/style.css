@@ -120,15 +120,15 @@ post-thumbnail {
 /* Post Page Styles */
 /* Scale down assets in the post image container */
 .post-image {
-    max-width: 600px; /* Set a maximum width for the container */
-    margin: 0 auto 20px; /* Center it and add bottom margin */
+    max-width: 100%;
+    margin: 0 auto 20px;
 }
 
 .post-image img {
-    width: 100%; /* Make the image fill the container's width */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%;
+    height: auto;
     display: block;
-    object-fit: contain; /* Ensure the image scales without distortion */
+    object-fit: contain;
 }
 
 .post-page .post-title {
