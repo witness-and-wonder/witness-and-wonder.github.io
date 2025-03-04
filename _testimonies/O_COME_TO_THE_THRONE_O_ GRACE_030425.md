@@ -1,5 +1,6 @@
 ---
 title: "O COME TO THE THRONE OF GRACE, 030425"
+slug: "o-come-to-the-throne-of-grace"
 author: "Shawn Lee"
 date: 2025-03-04
 excerpt: "Exhausted and out of time, I found myself assembling my model at 2 AM, yet a moment of reflection before Our Lady filled me with peace and resolve."

@@ -1,11 +1,9 @@
-title: My Testimony Blog
+title: Witness & Wonder
 description: A collection of inspiring testimonies
-baseurl: "/"
-url: "https://witness-and-wonder.github.io"
 theme: minima
 
 # Build settings
-markdown: kramdown
+markdown: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -13,4 +11,4 @@ plugins:
 collections:
   testimonies:
     output: true
-    permalink: /:path/
+    permalink: /:slug/
