@@ -1,10 +1,10 @@
 <!doctype html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8" />
         <title>{{ page.title }}</title>
 
         <!-- Primary Meta Tags -->
-        <meta charset="UTF-8" />
         <meta name="title" content="{{ page.title }}" />
         <meta
             name="description"
@@ -38,8 +38,8 @@
             href="{{ '/assets/css/style.css' | relative_url }}"
         />
     </head>
-    <body>
-        <div class="page-container">
+    <body class="post-page">
+        <div class="container">
             {% if page.image %}
             <div class="post-image">
                 <img
@@ -48,11 +48,16 @@
                 />
             </div>
             {% endif %}
-            <h1>{{ page.title }}</h1>
-            <p>
-                <em>{{ page.author }} | {{ page.date | date: "%B %d, %Y" }}</em>
-            </p>
-            {{ content }}
+            <header class="header">
+                <h1 class="post-title">{{ page.title }}</h1>
+                <p class="post-meta">
+                    <em
+                        >{{ page.author }} | {{ page.date | date: "%B %d, %Y"
+                        }}</em
+                    >
+                </p>
+            </header>
+            <main class="post-body">{{ content }}</main>
         </div>
     </body>
 </html>
