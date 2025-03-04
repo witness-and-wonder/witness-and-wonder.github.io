@@ -66,7 +66,7 @@ p {
     flex-wrap: wrap;
 }
 
-.post-thumbnail {
+post-thumbnail {
     width: 100%;
     max-width: 200px;
     margin-right: 10px;
@@ -107,6 +107,19 @@ p {
 }
 
 /* Post Page Styles */
+/* Scale down assets in the post image container */
+.post-image {
+    max-width: 600px; /* Set a maximum width for the container */
+    margin: 0 auto 20px; /* Center it and add bottom margin */
+}
+
+.post-image img {
+    width: 100%; /* Make the image fill the container's width */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    object-fit: contain; /* Ensure the image scales without distortion */
+}
+
 .post-page .post-title {
     font-size: 1.3em; /* scaled down */
     margin-bottom: 5px;
