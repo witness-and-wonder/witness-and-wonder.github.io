@@ -4,7 +4,7 @@ slug: "o-come-to-the-throne-of-grace"
 author: "Shawn Lee"
 date: 2025-03-04
 excerpt: "Exhausted and out of time, I found myself assembling my model at 2 AM, yet a moment of reflection before Our Lady filled me with peace and resolve."
-image: "./141A6757.JPG"
+thumbnail: "./141A6757.JPG"
 ---
 
 I think some of you already knew I was in the thick of it by the time we had our prayer call together last night. Indeed I was - I had a model to build, take photos of and record a video for by this Monday and a lot of things went wrong.
