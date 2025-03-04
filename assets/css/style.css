@@ -1,34 +1,123 @@
-body {
-    font-family: Arial, sans-serif;
+/* Basic Reset */
+* {
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center horizontally */
-    justify-content: flex-start; /* Align from top */
-    min-height: 100vh;
-}
-
-.page-container {
-    max-width: 800px; /* Set max width for the page */
-    width: 100%;
-    padding: 20px;
     box-sizing: border-box;
 }
 
-@media (max-width: 850px) {
-    .page-container {
-        width: 100%; /* Full width on smaller screens */
-        padding: 10px;
-    }
+/* Global Styles */
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+    padding: 20px;
 }
 
-.post-image {
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Header (Site Title) */
+.header {
     text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Home Page Styles */
+.home .page-title {
+    font-size: 2.5em;
     margin-bottom: 20px;
 }
 
-.post-image img {
-    max-width: 100%;
-    height: auto;
+.post-list {
+    list-style: none;
+}
+
+.post-card {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post-thumbnail {
+    width: 100%;
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+.post-thumbnail img {
+    width: 100%;
+    display: block;
+}
+
+.post-content {
+    flex: 1;
+}
+
+.post-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.post-meta {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.post-tags {
+    margin-bottom: 10px;
+}
+
+.post-tags span {
+    background-color: #f3f3f3;
+    color: #555;
+    padding: 5px 8px;
+    margin-right: 5px;
+    font-size: 0.8em;
+    border-radius: 3px;
+}
+
+/* Post Page Styles */
+.post-page .post-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.post-page .post-meta {
+    margin-bottom: 20px;
+}
+
+.post-page .post-body {
+    line-height: 1.8;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+    .post-card {
+        flex-direction: column;
+    }
+    .post-thumbnail {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
 }
