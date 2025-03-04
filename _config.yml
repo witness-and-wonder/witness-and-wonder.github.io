@@ -9,3 +9,8 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+collections:
+  testimonies:
+    output: true
+    permalink: /testimonies/:path/
