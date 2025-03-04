@@ -9,29 +9,29 @@ layout_class: home
   {% for testimony in sorted_testimonies %}
     <li class="post-card">
       {% if testimony.thumbnail %}
-      <div class="post-thumbnail">
-        <img src="{{ testimony.thumbnail }}" alt="{{ testimony.title }} thumbnail">
-      </div>
+        <div class="post-thumbnail">
+          <img src="{{ testimony.thumbnail }}" alt="{{ testimony.title }} thumbnail">
+        </div>
       {% endif %}
       <div class="post-content">
         <h2 class="post-title">
           <a href="{{ testimony.url }}">{{ testimony.title }}</a>
         </h2>
         <div class="post-meta">
-            {% if testimony.author %}
+          {% if testimony.author %}
             <span class="post-author">{{ testimony.author }} | </span>
-            {% endif %}
-            {{ testimony.date | date: "%B %d %Y" }}
+          {% endif %}
+          {{ testimony.date | date: "%B %d %Y" }}
         </div>
         {% if testimony.excerpt %}
-        <p>{{ testimony.excerpt }}</p>
+          <p>{{ testimony.excerpt }}</p>
         {% endif %}
         {% if testimony.tags %}
-        <div class="post-tags">
-          {% for tag in testimony.tags %}
-          <span>{{ tag }}</span>
-          {% endfor %}
-        </div>
+          <div class="post-tags">
+            {% for tag in testimony.tags %}
+              <span>{{ tag }}</span>
+            {% endfor %}
+          </div>
         {% endif %}
       </div>
     </li>
