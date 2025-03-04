@@ -8,6 +8,41 @@
             rel="stylesheet"
             href="{{ '/assets/css/style.css' | relative_url }}"
         />
+
+        <!-- Primary Meta Tags -->
+        <meta name="title" content="{{ page.title }}" />
+        <meta
+            name="description"
+            content="{{ page.description | strip_html | truncatewords: 30 }}"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="{{ page.url | absolute_url }}" />
+        <meta property="og:site_name" content="{{ page.title }}" />
+        <meta property="og:title" content="{{ page.title }}" />
+        <meta
+            property="og:description"
+            content="{{ page.description | strip_html | truncatewords: 30 }}"
+        />
+        <meta
+            property="og:image"
+            content="/assets/images/default-thumbnail.jpg"
+        />
+
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="{{ page.url | absolute_url }}" />
+        <meta name="twitter:title" content="{{ page.title }}" />
+        <meta
+            name="twitter:description"
+            content="{{ page.description | strip_html | truncatewords: 30 }}"
+        />
+        <meta
+            name="twitter:image"
+            content="/assets/images/default-thumbnail.jpg"
+        />
     </head>
     <body class="{{ page.layout_class }}">
         <div class="container">

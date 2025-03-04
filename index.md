@@ -1,6 +1,7 @@
 ---
 layout: default
 title: WITNESS & WONDER
+description: Come and share faith and be stirred!
 layout_class: home
 ---
 
