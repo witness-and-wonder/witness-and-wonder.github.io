@@ -3,7 +3,6 @@ description: A collection of inspiring testimonies
 theme: minima
 
 # Build settings
-markdown: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -12,3 +11,10 @@ collections:
   testimonies:
     output: true
     permalink: /:slug/
+
+defaults:
+  - scope:
+      path: ""
+      type: testimonies
+    values:
+      layout: testimony
