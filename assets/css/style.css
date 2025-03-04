@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap");
 
 /* Basic Reset */
 * {
@@ -9,10 +9,10 @@
 
 /* Global Styles */
 body {
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: "Merriweather", serif;
     line-height: 1.6;
     color: #333;
-    background-color: #f8f8f0;
+    background-color: #fff;
     padding: 20px;
     text-align: left;
 }
@@ -23,24 +23,16 @@ body {
     padding: 20px;
 }
 
-/* Headings - serif, italic for a retro look */
+/* Headings - nonitalic, normal weight for a subtle look */
 h1,
 h2,
 h3 {
     font-family: "Merriweather", serif;
-    font-style: italic;
+    font-style: normal;
+    font-weight: 400;
     font-size: 1.5em;
     margin-bottom: 5px;
-}
-
-h1 {
-    font-weight: 700;
-}
-h2 {
-    font-weight: 600;
-}
-h3 {
-    font-weight: 500;
+    color: #333;
 }
 
 /* Paragraphs */
@@ -59,7 +51,7 @@ p {
 .home .page-title {
     font-size: 1.5em;
     margin-bottom: 10px;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .post-list {
@@ -91,7 +83,7 @@ p {
 .post-title {
     font-size: 1.5em;
     margin-bottom: 5px;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .post-meta {
@@ -117,7 +109,7 @@ p {
 .post-page .post-title {
     font-size: 1.5em;
     margin-bottom: 5px;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .post-page .post-meta {
