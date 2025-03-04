@@ -55,13 +55,15 @@ p {
     font-weight: 400;
 }
 
+/* Make each .post-card align at the top within the grid */
 .post-list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr); /* or 3, depending on your layout */
     gap: 20px;
     list-style: none;
     padding: 0;
     margin: 0;
+    align-items: start; /* ensures all cards align at the top */
 }
 
 @media (max-width: 600px) {
@@ -75,8 +77,8 @@ p {
     padding: 10px 0;
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start; /* aligns thumbnail and text at the top */
 }
-
 post-thumbnail {
     width: 100%;
     max-width: 200px;
